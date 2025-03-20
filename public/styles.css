@@ -1,0 +1,39 @@
+.anime-card {
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+
+.anime-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.anime-cover {
+    height: 300px;
+    object-fit: cover;
+}
+
+.episode-list {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.episode-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.episode-item:last-child {
+    border-bottom: none;
+}
+
+.download-btn {
+    margin-left: 10px;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+} 
